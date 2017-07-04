@@ -9,6 +9,8 @@ size   = number of raters
 
 ![stories plot](images/stories_plot.png)
 
+<img src="images/stories_plot.png">
+
 ## author ratings
 
 mean story ratings by author
