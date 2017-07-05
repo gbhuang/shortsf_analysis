@@ -13,17 +13,17 @@
 
 mean story ratings by author
 
-![author means](images/author_means.png)
+<a href="https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/author_means.png"><img src="images/author_means.png"></a>
 
 ## [sowing dissension](https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/chooser_stds.png)
 
 story rating standard deviation by chooser
 
-![chooser stds](images/chooser_stds.png)
+<a href="https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/chooser_stds.png"><img src="images/chooser_stds.png"></a>
 
 ## [self-bias](https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/chooser_self_bias.png)
 
 for each person, deviation from group mean, split into cases where
 person is chooser versus not chooser
 
-![chooser self-bias](images/chooser_self_bias.png)
+<a href="https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/chooser_self_bias.png"><img src="images/chooser_self_bias.png"></a>
