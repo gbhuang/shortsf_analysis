@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as pe
 import scipy.stats
+import seaborn as sns
 
 ratings  = pd.read_csv('csv/ratings.csv')
 attr     = pd.read_csv('csv/attr.csv')
