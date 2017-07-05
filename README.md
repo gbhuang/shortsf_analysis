@@ -1,15 +1,13 @@
 # shortsf_analysis
 
-## stories overview
+## [stories overview](images/stories_plot.png)
 
-x-axis = story mean rating rank
-y-axis = story std rank
-color  = chooser
-size   = number of raters
+- x-axis = story mean rating rank
+- y-axis = story std rank
+- color  = chooser
+- size   = number of raters
 
 ![stories plot](images/stories_plot.png)
-
-<img src="images/stories_plot.png">
 
 ## author ratings
 
