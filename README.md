@@ -7,7 +7,7 @@
 - color  = chooser
 - size   = number of raters
 
-![stories plot](images/stories_plot.png)
+<a href="https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/stories_plot.png"><img src="images/stories_plot.png"></a>
 
 ## [author ratings](https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/author_means.png)
 
