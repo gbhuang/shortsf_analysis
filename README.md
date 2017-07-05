@@ -21,7 +21,7 @@ story rating standard deviation by chooser
 
 ![chooser stds](images/chooser_stds.png)
 
-## [self-bias]((https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/chooser_self_bias.png)
+## [self-bias](https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/chooser_self_bias.png)
 
 for each person, deviation from group mean, split into cases where
 person is chooser versus not chooser
