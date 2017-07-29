@@ -1,12 +1,21 @@
 title,author,year,chooser,M,mean,std,b_mean,b_std,fog_index
-I Don't Want to Hurt You Either,Ryan Row,2017,Tam,4,2.625,0.479,2.667,0.654,
-Nonstop to Portales,Connie Willis,2011,Tam,4,3.125,1.315,3.111,1.231,
-That Only a Mother,Judith Merrill,1947,Tam,4,2.625,0.750,2.667,0.820,
-Three Ways to Rob a Bank,Harold Daniels,1972,Mark,6,1.833,0.258,1.923,0.569,
-Just Another Perfect Day,John Varley,1989,Mark,6,3.000,0.548,3.000,0.642,
-Air Raid,John Varley,1977,Mark,6,3.167,1.571,3.154,1.483,
-Snowball Effect,Katherine MacLean,1952,Les,5,1.800,0.447,1.909,0.695,
-The Gentle Vultures,Isaac Asimov,1957,Les,4,2.500,0.707,2.556,0.799,
+The Very Pulse of the Machine,Michael Swanwick,1998,Don,5,3.080,0.427,3.073,0.584,
+Eight Episodes,Robert Reed,2006,Don,5,2.980,0.396,2.982,0.566,
+The Black Abacus,Yoon-Ha Lee,2013,Don,5,1.560,0.439,1.691,0.731,
+Morning Glory,Charles Yu,2017,Roian,5,3.280,0.259,3.255,0.507,
+Nightgame,CJ Cherryh,1981,Roian,5,1.460,0.508,1.600,0.783,
+Blood Blood,Abbey Otis,2010,Steve,7,2.786,1.655,2.800,1.572,
+The Waiting Stars,Aliette de Bodard,2013,Steve,6,3.033,0.327,3.031,0.503,
+Come Back to the Sea,Jason Vanhee,2013,Nadine,2,1.150,0.212,1.520,1.061,
+The Found Girl,David Klecha,2012,Nadine,2,2.500,0.707,2.600,0.864,
+I Don't Want to Hurt You Either,Ryan Row,2017,Tam,6,2.750,0.418,2.769,0.560,
+Nonstop to Portales,Connie Willis,2011,Tam,6,2.833,1.366,2.846,1.306,
+That Only a Mother,Judith Merrill,1947,Tam,6,2.917,0.801,2.923,0.833,
+Three Ways to Rob a Bank,Harold Daniels,1972,Mark,7,2.000,0.500,2.067,0.648,
+Just Another Perfect Day,John Varley,1989,Mark,7,3.071,0.535,3.067,0.620,
+Air Raid,John Varley,1977,Mark,7,3.071,1.456,3.067,1.394,
+Snowball Effect,Katherine MacLean,1952,Les,7,1.814,0.612,1.893,0.744,
+The Gentle Vultures,Isaac Asimov,1957,Les,6,2.667,0.683,2.692,0.747,
 SETI for Profit,Gregory Benford,2008,Vijay,7,2.271,0.591,2.320,0.688,
 The Janitor in Space,Amber Sparks,1991,Vijay,7,2.214,0.994,2.267,1.011,
 The Years Draw Nigh,Lester DelRey,1951,Vijay,6,2.250,0.524,2.308,0.659,
@@ -14,11 +23,11 @@ Escape from Spiderhead,George Saunders,2010,John,6,4.067,0.572,3.985,0.722,
 Sparks Fly,Rich Larson,2016,John,6,2.833,0.683,2.846,0.743,
 The Bog Girl,Karen Russell,2016,John,5,3.120,0.920,3.109,0.930,
 The Road Not Taken,Harry Turtledove,1985,Ting,6,2.367,0.909,2.415,0.936,
-The Sunjammer,Arthur Clarke,1963,Ting,6,2.633,0.589,2.662,0.679,
+The Sunjammer,Arthur Clarke,1963,Ting,6,2.600,0.583,2.631,0.676,
 A Burden Shared,Jo Walton,2017,Stuart,6,2.417,0.801,2.462,0.848,
 The Worldless,Indrapramit Das,2017,Stuart,6,2.333,0.816,2.385,0.865,
 Einstein's Dreams,Alan Lightman,1992,Stuart,7,1.929,0.838,2.000,0.903,
-Flowers for Algernon,Daniel Keyes,1958,Gary,8,4.438,0.904,4.353,0.977,
+Flowers for Algernon,Daniel Keyes,1958,Gary,9,4.444,0.846,4.368,0.923,
 That Game We Played During the War,Carrie Vaughn,2016,Gary,8,3.438,0.821,3.412,0.849,
 Specialist,Robert Sheckley,1953,Charlotte,7,3.286,0.756,3.267,0.795,
 You'll Always Have the Burden With You,Ken Liu,2013,Charlotte,7,2.786,0.994,2.800,0.992,
@@ -78,7 +87,7 @@ Civilization,Vylar Kaftan,2007,Cameron,6,2.617,0.531,2.646,0.639,7
 Red Card,SL Gilbow,2007,Cameron,6,2.933,0.606,2.938,0.684,7.7
 The Lottery,Shirley Jackson,1948,Cameron,7,3.371,0.706,3.347,0.758,5.2
 A Moment of Gravity Circumscribed,Fran Wilde,2013,John,8,2.075,0.748,2.129,0.813,5.3
-The Cold Equations,Tom Godwin,1954,John,7,2.500,0.500,2.533,0.609,10.9
+The Cold Equations,Tom Godwin,1954,John,8,2.313,0.704,2.353,0.763,10.9
 The Dog King,Holly Black,2010,Tam,8,3.063,0.729,3.059,0.766,7
 Five Stages of Grief After the Alien Invasion,Caroline Yoachim,2014,Tam,9,2.500,0.829,2.526,0.855,8
 The Right Sort of Monsters,Kelly Sandoval,2016,Tam,8,2.938,0.776,2.941,0.805,4.6
@@ -109,7 +118,7 @@ How to Talk to Girls at Parties,Neil Gaiman,2007,Alex,11,3.136,0.951,3.130,0.954
 The People of Sand and Slag,Paolo Bacigalupi,2004,Cameron,11,3.500,1.162,3.478,1.151,5.6
 Pocketful of Dharma,Paolo Bacigalupi,1999,Cameron,11,2.909,0.701,2.913,0.732,6.7
 The Axiom of Choice,David Goldman,2011,John,9,3.167,0.707,3.158,0.744,7.4
-A Subway Named Moebius,AJ Deutsch,1950,John,10,2.450,0.643,2.476,0.696,6.6
+A Subway Named Moebius,AJ Deutsch,1950,John,10,2.460,0.636,2.486,0.690,6.6
 The Death and Rebirth of Anne Bonny,Nancy Fulda,2012,John,10,2.650,0.883,2.667,0.897,6.9
 The Invasion From Outer Space,Steven Millhauser,2009,Tam,9,2.833,0.866,2.842,0.880,10.7
 The Jigsaw Man,Larry Niven,1967,Tam,9,2.333,0.707,2.368,0.759,6.3
