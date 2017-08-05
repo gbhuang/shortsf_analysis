@@ -27,3 +27,15 @@ for each person, deviation from group mean, split into cases where
 person is chooser versus not chooser
 
 <a href="https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/chooser_self_bias.png"><img src="images/chooser_self_bias.png"></a>
+
+## [individual rater distributions](https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/rater_distribution.png)
+
+violin plot showing distribution of scores per person
+
+<a href="https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/rater_distribution.png"><img src="images/rater_distribution.png"></a>
+
+## [rater correlations](https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/rater_correlations.png)
+
+regularized estimate of correlations between pairs of reviewers (10 observations minimum)
+
+<a href="https://raw.githubusercontent.com/gbhuang/shortsf_analysis/master/images/rater_correlations.png"><img src="images/rater_correlations.png"></a>

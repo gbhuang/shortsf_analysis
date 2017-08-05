@@ -1,24 +1,26 @@
 title,author,year,chooser,M,mean,std,b_mean,b_std,fog_index
-The Very Pulse of the Machine,Michael Swanwick,1998,Don,5,3.080,0.427,3.073,0.584,
-Eight Episodes,Robert Reed,2006,Don,5,2.980,0.396,2.982,0.566,
-The Black Abacus,Yoon-Ha Lee,2013,Don,5,1.560,0.439,1.691,0.731,
-Morning Glory,Charles Yu,2017,Roian,5,3.280,0.259,3.255,0.507,
-Nightgame,CJ Cherryh,1981,Roian,5,1.460,0.508,1.600,0.783,
-Blood Blood,Abbey Otis,2010,Steve,7,2.786,1.655,2.800,1.572,
-The Waiting Stars,Aliette de Bodard,2013,Steve,6,3.033,0.327,3.031,0.503,
-Come Back to the Sea,Jason Vanhee,2013,Nadine,2,1.150,0.212,1.520,1.061,
-The Found Girl,David Klecha,2012,Nadine,2,2.500,0.707,2.600,0.864,
-I Don't Want to Hurt You Either,Ryan Row,2017,Tam,6,2.750,0.418,2.769,0.560,
-Nonstop to Portales,Connie Willis,2011,Tam,6,2.833,1.366,2.846,1.306,
-That Only a Mother,Judith Merrill,1947,Tam,6,2.917,0.801,2.923,0.833,
-Three Ways to Rob a Bank,Harold Daniels,1972,Mark,7,2.000,0.500,2.067,0.648,
-Just Another Perfect Day,John Varley,1989,Mark,7,3.071,0.535,3.067,0.620,
-Air Raid,John Varley,1977,Mark,7,3.071,1.456,3.067,1.394,
-Snowball Effect,Katherine MacLean,1952,Les,7,1.814,0.612,1.893,0.744,
-The Gentle Vultures,Isaac Asimov,1957,Les,6,2.667,0.683,2.692,0.747,
-SETI for Profit,Gregory Benford,2008,Vijay,7,2.271,0.591,2.320,0.688,
-The Janitor in Space,Amber Sparks,1991,Vijay,7,2.214,0.994,2.267,1.011,
-The Years Draw Nigh,Lester DelRey,1951,Vijay,6,2.250,0.524,2.308,0.659,
+Brain of the Galaxy,Jack Vance,1951,Bill,7,2.129,1.095,2.187,1.100,
+Colony,Philip K Dick,1953,Bill,7,2.857,0.988,2.867,0.986,
+The Very Pulse of the Machine,Michael Swanwick,1998,Don,6,3.133,0.432,3.123,0.566,
+Eight Episodes,Robert Reed,2006,Don,6,2.983,0.354,2.985,0.518,
+The Black Abacus,Yoon-Ha Lee,2013,Don,6,1.967,1.071,2.046,1.091,
+Morning Glory,Charles Yu,2017,Roian,6,3.233,0.258,3.215,0.473,
+Nightgame,CJ Cherryh,1981,Roian,6,1.717,0.776,1.815,0.887,
+Blood Blood,Abbey Otis,2010,Steve,8,2.875,1.553,2.882,1.490,
+The Waiting Stars,Aliette de Bodard,2013,Steve,7,3.171,0.472,3.160,0.577,
+Come Back to the Sea,Jason Vanhee,2013,Nadine,3,1.100,0.173,1.371,0.915,
+The Found Girl,David Klecha,2012,Nadine,3,2.333,0.577,2.429,0.773,
+I Don't Want to Hurt You Either,Ryan Row,2017,Tam,7,2.786,0.393,2.800,0.526,
+Nonstop to Portales,Connie Willis,2011,Tam,7,2.857,1.249,2.867,1.212,
+That Only a Mother,Judith Merrill,1947,Tam,7,2.857,0.748,2.867,0.787,
+Three Ways to Rob a Bank,Harold Daniels,1972,Mark,8,2.000,0.463,2.059,0.607,
+Just Another Perfect Day,John Varley,1989,Mark,8,3.063,0.496,3.059,0.581,
+Air Raid,John Varley,1977,Mark,8,3.000,1.363,3.000,1.319,
+Snowball Effect,Katherine MacLean,1952,Les,8,1.900,0.616,1.965,0.725,
+The Gentle Vultures,Isaac Asimov,1957,Les,7,2.714,0.636,2.733,0.701,
+SETI for Profit,Gregory Benford,2008,Vijay,8,2.238,0.555,2.282,0.653,
+The Janitor in Space,Amber Sparks,1991,Vijay,8,2.250,0.926,2.294,0.950,
+The Years Draw Nigh,Lester DelRey,1951,Vijay,7,2.214,0.488,2.267,0.620,
 Escape from Spiderhead,George Saunders,2010,John,6,4.067,0.572,3.985,0.722,
 Sparks Fly,Rich Larson,2016,John,6,2.833,0.683,2.846,0.743,
 The Bog Girl,Karen Russell,2016,John,5,3.120,0.920,3.109,0.930,
@@ -85,7 +87,7 @@ The Anatomy Lesson,Scott Sanders,1991,Nadine,7,2.686,1.317,2.707,1.274,
 Stone Animals,Kelly Link,2004,Alex,8,2.163,0.695,2.212,0.765,6.2
 Civilization,Vylar Kaftan,2007,Cameron,6,2.617,0.531,2.646,0.639,7
 Red Card,SL Gilbow,2007,Cameron,6,2.933,0.606,2.938,0.684,7.7
-The Lottery,Shirley Jackson,1948,Cameron,7,3.371,0.706,3.347,0.758,5.2
+The Lottery,Shirley Jackson,1948,Cameron,8,3.388,0.656,3.365,0.712,5.2
 A Moment of Gravity Circumscribed,Fran Wilde,2013,John,8,2.075,0.748,2.129,0.813,5.3
 The Cold Equations,Tom Godwin,1954,John,8,2.313,0.704,2.353,0.763,10.9
 The Dog King,Holly Black,2010,Tam,8,3.063,0.729,3.059,0.766,7
@@ -162,7 +164,7 @@ Green Patches,Isaac Asimov,1950,Les,5,2.500,0.707,2.545,0.783,7.5
 Conspiracy Theory,William Tracy,2008,Les,6,1.917,0.492,2.000,0.673,10.5
 A Conspiracy of Vegetables,Teri Babcock,2015,Les,6,2.167,0.983,2.231,1.007,6.9
 The Open Window,Saki,1914,Vijay,8,2.688,0.961,2.706,0.966,9.4
-The Monkey's Paw,WW Jacobs,1902,Vijay,8,2.938,0.863,2.941,0.879,7.1
+The Monkey's Paw,WW Jacobs,1902,Vijay,9,3.056,0.882,3.053,0.894,7.1
 Pythias,Frederik Pohl,1955,Vijay,7,3.000,0.816,3.000,0.842,6.3
 Advanced Directive,Jamie Brindle,2014,Vijay,8,2.938,0.863,2.941,0.879,7.4
 Galatic Weather Report,Julia Nolan,2016,Ting,8,1.938,0.417,2.000,0.584,10.2
@@ -191,7 +193,7 @@ The View From Endless Scarp,Marta Randall,1978,Vijay,7,2.429,1.272,2.467,1.241,6
 The Fate of the Poseidonia,Claire Wright Harris,1927,Vijay,7,2.143,0.690,2.200,0.771,
 Covenant,Elizabeth Bear,2014,Mark,7,4.143,0.900,4.067,0.957,7.1
 The Library of Mabel Mogaburu,Fernando Sorrentino,2013,Mark,7,1.857,0.627,1.933,0.750,8.7
-The Veldt,Ray Bradbury,1950,Mark,7,3.071,0.732,3.067,0.773,11.1
+The Veldt,Ray Bradbury,1950,Mark,8,3.188,0.753,3.176,0.787,11.1
 Snow Glass Apples,Neil Gaiman,1994,Mark,7,2.857,0.690,2.867,0.740,
 Mountain,Cixin Liu,2005,Ting,5,3.500,1.000,3.455,1.004,7.3
 The Story of Your Life,Ted Chiang,1998,Ting,6,4.500,1.225,4.385,1.254,
@@ -228,7 +230,7 @@ A Most Ambitious Experiment,Mike Krath,,Vijay,5,2.200,0.837,2.273,0.898,5.6
 The Clock That Went Backward,Edward Mitchell,1881,Vijay,6,2.333,0.516,2.385,0.647,9.2
 The Water that Falls on You from Nowhere,John Chu,2013,Gary,6,2.083,0.801,2.154,0.870,6.8
 The Girl who was Plugged In,Alice Sheldon,1973,Gary,4,3.000,0.816,3.000,0.856,6.3
-Harrison Bergeron,Kurt Vonnegut,1961,Gary,4,4.500,0.577,4.333,0.856,8
+Harrison Bergeron,Kurt Vonnegut,1961,Gary,5,4.500,0.500,4.364,0.772,8
 S is for Solipsism,Tim Pratt,2011,Stuart,4,1.950,0.737,2.067,0.873,8.9
 Closer,Greg Egan,1992,Stuart,4,3.700,0.872,3.622,0.925,10.6
 They,Robert Heinlein,1941,Stuart,4,2.000,0.816,2.111,0.918,
@@ -246,7 +248,7 @@ Omnilingual,HBeam Piper,1957,Les,5,2.800,0.447,2.818,0.598,9.6
 The Wandering Earth,Cixin Liu,2000,Ting,5,4.000,1.225,3.909,1.212,
 With Her Eyes,Cixin Liu,1999,Ting,5,3.000,1.225,3.000,1.174,
 The Girl Who Loved Animals,Bruce McAllister,1988,Gary,5,2.700,0.837,2.727,0.870,
-Day Million,Frederik Pohl,1966,Gary,4,3.125,0.854,3.111,0.884,10.9
+Day Million,Frederik Pohl,1966,Gary,7,2.786,1.035,2.800,1.027,10.9
 The Rememberer,Aimee Bender,1997,Gary,5,2.200,1.525,2.273,1.444,7.8
 Kirinyaga,Mike Resnick,1989,Vijay,6,3.333,1.633,3.308,1.540,8
 The Machine Stops,EM Forster,1909,Vijay,5,3.200,0.447,3.182,0.598,8.1
@@ -255,9 +257,9 @@ Start the Clock,Benjamin Rosenbaum,2004,Stuart,4,3.750,0.957,3.667,0.989,6.1
 The Clockwork Atom Bomb,Dominic Green,2005,Stuart,5,2.900,0.742,2.909,0.794,
 The Lifecycle of Software Objects,Ted Chiang,2010,Don,6,3.317,1.059,3.292,1.047,11
 The Voice,Anne Bishop,2012,Charlotte,5,3.200,0.908,3.182,0.922,
-I Have No Mouth and I Must Scream,Harlan Ellison,1967,Bill,7,2.571,1.397,2.600,1.347,
+I Have No Mouth and I Must Scream,Harlan Ellison,1967,Bill,8,2.750,1.389,2.765,1.343,
 The Ceiling,Kevin Brockmeier,2002,Bill,7,2.429,0.976,2.467,0.986,
-Nightfall,Isaac Asimov,1941,Vijay,5,4.000,0.707,3.909,0.825,
+Nightfall,Isaac Asimov,1941,Vijay,6,4.000,0.632,3.923,0.755,
 Library of Babel,Jorge Borges,1941,Vijay,6,2.833,0.753,2.846,0.796,14.3
 Let's Have a Talk,Xia Jia,2015,Ting,5,2.800,0.837,2.818,0.867,
 A Walk In the Sun,Geoffery Landis,1991,Ting,5,4.000,0.707,3.909,0.825,6.9
@@ -266,16 +268,16 @@ Repent Harlequin Said the Ticktockman,Harlan Ellison,1965,Mark,7,3.071,1.644,3.0
 Time in Advance,William Tenn,1958,Mark,5,2.200,0.837,2.273,0.898,
 None So Blind,Joe Haldeman,1994,Stuart,5,2.900,0.548,2.909,0.659,12.7
 Movement,Nancy Fulda,2011,Stuart,6,3.083,0.917,3.077,0.927,9
-Learning to be Me,Greg Egan,1990,Gary,5,4.200,1.095,4.091,1.128,
+Learning to be Me,Greg Egan,1990,Gary,6,4.333,1.033,4.231,1.086,
 Marionettes Inc,Ray Bradbury,1949,Gary,6,2.417,0.917,2.462,0.940,4.7
 All You Zombies,Robert Heinlein,1959,Charlotte,6,3.667,1.033,3.615,1.038,7.2
 Why I Left Harry's All-Night Hamburgers,Lawrence Watt-Evans,1987,Charlotte,6,3.833,1.169,3.769,1.159,11.3
-The Nine Billion Names of God,Arthur Clarke,1953,Don,8,3.125,0.641,3.118,0.694,8.9
+The Nine Billion Names of God,Arthur Clarke,1953,Don,9,3.222,0.667,3.211,0.711,8.9
 Johnny Mnemonic,William Gibson,1981,Don,5,3.600,1.140,3.545,1.120,8.3
 They're Made Out of Meat,Terry Bisson,1991,Don,8,4.125,1.458,4.059,1.430,4.7
 When It Ends He Catches Her,Eugie Foster,2014,Bill,5,2.400,0.548,2.455,0.682,6.9
 What's Expected of Us,Ted Chiang,2005,Bill,4,2.500,1.000,2.556,1.002,
 Unit Simulation,Coy St Clair,2014,Bill,4,1.750,0.500,1.889,0.773,
 Monkeys,Ken Liu,2012,Bill,4,2.250,0.500,2.333,0.699,
-The Ostracons of Europa,Ken Hinkley,2013,Bill,5,1.000,0.000,1.182,0.745,
+The Ostracons of Europa,Ken Hinkley,2013,Bill,6,1.000,0.000,1.154,0.685,
 The Buyout,Ananyo Bhattacharya,2015,Bill,4,2.500,0.577,2.556,0.718,
