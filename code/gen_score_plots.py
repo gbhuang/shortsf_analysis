@@ -1,3 +1,5 @@
+import plotly
+import plotly.graph_objs as go
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -162,13 +164,20 @@ s_mn  = []
 s_std = []
 s_sz  = []
 s_cl  = []
+plotly_hover = []
+choosers = attr.chooser.unique()
 for ii in range(0,n_stories):
     s_mn.append(np.sum(r_mn[ii]  >r_mn  ) / n_stories )
     s_std.append(np.sum(r_std[ii]>r_std ) / n_stories )
-    s_sz.append(attr.M*attr.M*40)
-    c_idx = np.flatnonzero(attr.chooser.unique()==
+    s_sz.append(attr.M[ii]*attr.M[ii]*40)
+    c_idx = np.flatnonzero(choosers==
                            attr.chooser[ii]);
     s_cl.append(c_idx[0])
+
+    plotly_hover.append(
+        '%s<br />author: %s<br />chooser: %s<br />mean: %g<br />std: %g' % (
+            attr.title[ii], attr.author[ii], choosers[c_idx[0]],
+            attr.b_mean[ii], attr.b_std[ii]) )
 
 xx = np.array([s_mn, s_std])
 dd_min   = 0.02
@@ -215,3 +224,35 @@ plt.ylabel('story std rank')
 plt.tight_layout()
 plt.savefig('images/stories_plot.png')
 plt.close()
+
+
+cc = sns.color_palette('Set1',np.max(s_cl)+1)
+#cc = sns.husl_palette(np.max(s_cl)+1, l=.5, s=.9)
+cc_list = []
+for ii in s_cl:
+    cc_int = np.floor(np.asarray(cc[ii])*255).astype(int)
+    cc_list.append( 'rgb(%d,%d,%d)' %
+                    (cc_int[0],cc_int[1],cc_int[2]) )
+
+layout = go.Layout(
+    hovermode = 'closest',
+    xaxis=dict(title='story mean rank'),
+    yaxis=dict(title='story std rank'))
+plotly.offline.plot( {'data': [
+    go.Scatter(x=s_mn, y=s_std,
+               mode='markers',
+               text=plotly_hover,
+               hoverinfo='text',
+               textfont=dict(
+                   size=6,
+                   color='#cccccc'
+                   ),
+               marker=dict(
+                   color=cc_list,
+                   size=np.asarray(s_sz),
+                   sizemode='area',
+                   sizeref=2.*max(s_sz)/(40.**2),
+                   sizemin=4
+               ))],
+                      'layout': layout},
+                     filename='images/stories_plot.html')
