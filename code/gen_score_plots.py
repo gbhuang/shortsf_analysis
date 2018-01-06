@@ -6,11 +6,19 @@ import matplotlib.pyplot as plt
 import matplotlib.patheffects as pe
 import scipy.stats
 import seaborn as sns
-
+import textwrap
 
 # preliminaries
 ratings  = pd.read_csv('csv/ratings.csv')
 attr     = pd.read_csv('csv/attr.csv')
+notes    = pd.read_csv('csv/notes.csv')
+
+for ii in range(np.size(notes,0)):
+    if not isinstance(notes.notes[ii], str):
+        notes.notes[ii] = '[summary needed]'
+    else:
+        notes.notes[ii] = '<br />'.join(textwrap.wrap(
+            notes.notes[ii], 50))
 
 new_columns = []
 for cc in ratings.columns:
@@ -175,8 +183,9 @@ for ii in range(0,n_stories):
     s_cl.append(c_idx[0])
 
     plotly_hover.append(
-        '%s<br />author: %s<br />chooser: %s<br />mean: %g<br />std: %g' % (
-            attr.title[ii], attr.author[ii], choosers[c_idx[0]],
+        '%s<br />author: %s<br />"%s"<br /><br />chooser: %s<br />mean: %g<br />std: %g' % (
+            attr.title[ii], attr.author[ii], notes.notes[ii],
+            choosers[c_idx[0]],
             attr.b_mean[ii], attr.b_std[ii]) )
 
 xx = np.array([s_mn, s_std])
