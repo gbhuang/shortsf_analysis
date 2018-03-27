@@ -1,55 +1,78 @@
 title,author,year,chooser,M,mean,std,b_mean,b_std,fog_index
-Christmas Wedding,Vylar Kaftan,2008,Stuart,3,1.167,0.289,1.429,0.915,
-England Under the White Witch,Theodora Glass,2012,Stuart,3,3.100,0.361,3.086,0.637,
-The Gift,Christie Yant,2017,Stuart,3,1.667,0.577,1.857,0.884,
-The Deathbird,Harlan Ellison,1974,Gary,3,3.000,1.732,3.000,1.500,
-The Last Flight of Doctor Ain,Alice Sheldon,1969,Gary,3,3.000,1.000,3.000,0.982,
-The Jewbird,Bernard Malamud,1963,Gary,3,2.700,1.212,2.743,1.131,
-Mary Margaret,Howard Waldrop,1976,Don,5,2.900,0.742,2.909,0.794,
-Car Wars,Cory Doctorow,2016,Don,5,2.720,0.996,2.745,0.993,
-Auto-da-Fe,Roger Zelany,1967,Don,5,3.000,0.791,3.000,0.830,
-Welcome to Your Authentic Indian Experience,Rebecca Roanhorse,2017,Bill,5,2.800,0.570,2.818,0.676,
-Utopia LOL?,Jamie Wahls,2017,Bill,5,4.080,0.370,3.982,0.640,
-Fandom for Robots,Vina Prasad,2017,Bill,5,2.800,1.037,2.818,1.023,
-The Janitor on Mars,Martin Amis,1997,Monet,5,1.400,0.418,1.545,0.751,
-Absolutely Inflexible,Robert Silverberg,1958,Monet,4,1.875,0.250,2.000,0.654,
-A Cup of Salt Tears,Isabel Yap,2014,Monet,5,2.300,0.671,2.364,0.772,
-The Haunted Tower,CJ Cherryh,1981,Roian,5,3.380,0.415,3.345,0.588,
-Troll Bridge,Terry Pratchet,1991,Roian,5,2.920,0.676,2.927,0.747,
-Dragons of Tomorrow,Kathleen Baldwin,2016,Nadine,6,1.550,0.394,1.662,0.673,
-Two Ways of Living,Robert Reed,2017,Nadine,7,2.600,0.950,2.627,0.959,
+Ladies Night,Robert Dawson,2017,Roian,2,2.800,0.424,2.840,0.747,
+A Very Good Year,Jack Haldeman,1984,Roian,2,2.250,0.354,2.400,0.794,
+The Alchemist,HP Lovecraft,1908,John,6,2.000,0.707,2.077,0.808,
+Facts Concerning the Late Arthur Jermyn and His Family,HP Lovecraft,1920,John,6,2.367,0.698,2.415,0.772,
+The Rats in the Walls,HP Lovecraft,1923,John,6,2.717,0.997,2.738,0.995,
+Spider the Artist,Nnedi Okorafor,2011,Nadine,6,2.767,0.792,2.785,0.828,
+Day of the Builders,Kristine Muslim,2016,Nadine,6,1.833,0.753,1.923,0.858,
+The Red Thread,Sofia Samatar,2016,Nadine,6,1.583,0.376,1.692,0.659,
+Hyper Reality,Keiichi Matsuda,2016,Steve,5,2.400,1.517,2.455,1.429,
+Keep Your Shape,Robert Sheckley,1953,Steve,5,2.820,0.581,2.836,0.682,
+The Prize of Peril,Robert Sheckley,1958,Steve,5,3.480,0.614,3.436,0.717,
+The Starship and the Temple Cat,Yoon-Ha Lee,2018,Tam,7,2.286,1.075,2.333,1.076,
+The Fisher Queen,Alyssa Wong,2014,Tam,7,3.300,0.825,3.280,0.852,
+Once I A Rose,AMerc Rustad,2016,Tam,7,2.286,1.075,2.333,1.076,
+Coffee Wi-Fi and the Moon,Nikolas Katsimpras,2015,Mark,5,1.800,0.758,1.909,0.883,
+ANTFARM,August Cole,2015,Mark,5,2.500,0.707,2.545,0.783,
+Article 1 Section 8 Clause 11,Ken Liu,2015,Mark,6,2.800,0.438,2.815,0.571,
+The Truth of Fact the Truth of Feeling,Ted Chiang,2013,Vijay,7,3.429,0.932,3.400,0.945,
+A Brief and Inaccurate but True Account of the Origin of Living Books,Ken Liu,2016,Vijay,7,2.471,0.898,2.507,0.919,
+Wonder of the World,Kathryn Blume,2016,Ting,4,1.875,1.031,2.000,1.078,
+The Grandchild Paradox,Daniel Thron,2016,Ting,5,1.800,0.447,1.909,0.695,
+Sunshine State,Adam Flynn,2016,Ting,4,2.500,0.577,2.556,0.718,
+Cat Person,Kristen Roupenian,2017,Gary,8,3.250,1.195,3.235,1.170,
+Christmas Wedding,Vylar Kaftan,2008,Stuart,5,1.680,0.798,1.800,0.925,
+England Under the White Witch,Theodora Glass,2012,Stuart,8,3.063,0.593,3.059,0.656,
+The Gift,Christie Yant,2017,Stuart,5,1.800,0.837,1.909,0.937,
+The Deathbird,Harlan Ellison,1974,Gary,7,3.186,1.129,3.173,1.108,
+The Last Flight of Doctor Ain,Alice Sheldon,1969,Gary,8,2.938,0.678,2.941,0.724,
+The Jewbird,Bernard Malamud,1963,Gary,8,2.538,0.962,2.565,0.970,
+Mary Margaret,Howard Waldrop,1976,Don,6,3.017,0.722,3.015,0.771,
+Car Wars,Cory Doctorow,2016,Don,8,3.075,0.950,3.071,0.953,
+Auto-da-Fe,Roger Zelany,1967,Don,7,3.057,0.663,3.053,0.718,
+Welcome to Your Authentic Indian Experience,Rebecca Roanhorse,2017,Bill,6,2.833,0.516,2.846,0.622,
+Utopia LOL?,Jamie Wahls,2017,Bill,6,4.233,0.501,4.138,0.698,
+Fandom for Robots,Vina Prasad,2017,Bill,6,2.833,0.931,2.846,0.939,
+The Janitor on Mars,Martin Amis,1997,Monet,7,1.314,0.376,1.427,0.671,
+Absolutely Inflexible,Robert Silverberg,1958,Monet,5,2.000,0.354,2.091,0.620,
+A Cup of Salt Tears,Isabel Yap,2014,Monet,6,2.333,0.606,2.385,0.708,
+The Haunted Tower,CJ Cherryh,1981,Roian,6,3.150,0.675,3.138,0.736,
+Troll Bridge,Terry Pratchet,1991,Roian,6,3.100,0.748,3.092,0.792,
+Dragons of Tomorrow,Kathleen Baldwin,2016,Nadine,7,1.471,0.415,1.573,0.665,
+Two Ways of Living,Robert Reed,2017,Nadine,8,2.900,1.222,2.906,1.193,
 The House of Half Mirrors,Thoraiya Dyer,2016,Nadine,6,2.417,0.970,2.462,0.983,
 Mind Partner,Christopher Anvil,1960,Steve,5,2.600,0.822,2.636,0.862,
 Bullet in the Brain,Tobias Wolff,1995,Steve,5,2.540,1.110,2.582,1.090,
-An Occurrence at Owl Creek Bridge,Ambrose Bierce,1890,Steve,5,2.000,0.707,2.091,0.825,
-The First Sally (A) or Trurl's Electronic Bard,Stanislaw Lem,1965,John,5,3.740,0.488,3.673,0.658,
-Trurl's Machine,Stanislaw Lem,1965,John,5,2.560,0.378,2.600,0.572,
-How the World was Saved,Stanislaw Lem,1965,John,5,2.980,0.642,2.982,0.722,
-Captive Girl,Jennifer Pelland,2006,Tam,6,2.667,0.983,2.692,0.985,
-The Krakatoan,Maria Headley,2013,Tam,6,2.000,0.894,2.077,0.949,
-Swarm,Bruce Sterling,1982,Mark,5,2.500,0.866,2.545,0.900,
-Cartographer Wasps and Anarchist Bees,Lily Yu,2011,Mark,8,3.213,0.402,3.200,0.517,
+An Occurrence at Owl Creek Bridge,Ambrose Bierce,1890,Steve,6,2.000,0.632,2.077,0.755,
+The First Sally (A) or Trurl's Electronic Bard,Stanislaw Lem,1965,John,6,3.783,0.449,3.723,0.615,
+Trurl's Machine,Stanislaw Lem,1965,John,6,2.633,0.383,2.662,0.544,
+How the World was Saved,Stanislaw Lem,1965,John,6,2.983,0.574,2.985,0.661,
+Captive Girl,Jennifer Pelland,2006,Tam,8,2.875,0.916,2.882,0.924,
+The Krakatoan,Maria Headley,2013,Tam,8,2.000,0.926,2.059,0.963,
+Swarm,Bruce Sterling,1982,Mark,7,2.929,1.018,2.933,1.011,
+Cartographer Wasps and Anarchist Bees,Lily Yu,2011,Mark,9,3.078,0.552,3.074,0.616,
 Expendable,Philip K Dick,1953,Mark,5,2.160,0.550,2.236,0.706,
-The Shattered Teacup,George Mann,2008,Ting,5,1.800,0.447,1.909,0.695,
-Clockwork Fairies,Cat Rambo,2010,Ting,5,1.960,0.577,2.055,0.746,
-Seven Birthdays,Ken Liu,2016,Vijay,6,3.350,0.784,3.323,0.825,
-The Story of Kao Yu,Peter Beagle,2016,Vijay,6,2.600,0.548,2.631,0.651,
-Custom-made,Cassandra Khaw,2017,Stuart,7,1.643,0.435,1.733,0.652,
-Cadet Cruise,David Drake,2016,Stuart,6,1.167,0.683,1.308,0.897,
-Super-toys Last All Summer Long,Brian Aldiss,1969,Stuart,7,2.286,0.859,2.333,0.896,
+The Shattered Teacup,George Mann,2008,Ting,7,1.714,0.488,1.800,0.673,
+Clockwork Fairies,Cat Rambo,2010,Ting,7,2.114,0.612,2.173,0.716,
+Seven Birthdays,Ken Liu,2016,Vijay,7,3.300,0.728,3.280,0.773,
+The Story of Kao Yu,Peter Beagle,2016,Vijay,7,2.657,0.522,2.680,0.618,
+Custom-made,Cassandra Khaw,2017,Stuart,8,1.563,0.463,1.647,0.657,
+Cadet Cruise,David Drake,2016,Stuart,7,1.286,0.699,1.400,0.867,
+Super-toys Last All Summer Long,Brian Aldiss,1969,Stuart,8,2.375,0.835,2.412,0.867,
 A Sound of Thunder,Ray Bradbury,1952,Gary,5,2.460,0.631,2.509,0.733,
-The Fog Horn,Ray Bradbury,1951,Gary,3,2.867,0.808,2.886,0.862,
+The Fog Horn,Ray Bradbury,1951,Gary,4,2.900,0.663,2.911,0.754,
 The Pedestrian,Ray Bradbury,1951,Gary,4,2.775,0.737,2.800,0.805,
-There Will Come Soft Rains,Ray Bradbury,1950,Gary,5,3.780,0.526,3.709,0.685,
+There Will Come Soft Rains,Ray Bradbury,1950,Gary,7,3.914,0.508,3.853,0.645,
 The Neanderthal in the Garden,Guido Eekhaut,,Monet,6,1.217,0.248,1.354,0.676,
 We've Lied,Bob McHugh,2016,Monet,5,3.000,0.707,3.000,0.769,
 Axis Mundi,Cameron Suey,2014,Monet,5,2.740,0.488,2.764,0.625,
-The Hunger After You're Fed,James Corey,2016,Adam,5,3.140,1.172,3.127,1.132,
+The Hunger After You're Fed,James Corey,2016,Adam,6,3.283,1.105,3.262,1.085,
 Divided by Infinity,Robert Wilson,1999,Adam,5,3.580,0.427,3.527,0.609,
 Brain of the Galaxy,Jack Vance,1951,Bill,8,2.175,1.022,2.224,1.036,
 Colony,Philip K Dick,1953,Bill,8,2.875,0.916,2.882,0.924,
 The Very Pulse of the Machine,Michael Swanwick,1998,Don,7,3.229,0.547,3.213,0.632,
-Eight Episodes,Robert Reed,2006,Don,7,3.043,0.395,3.040,0.524,
+Eight Episodes,Robert Reed,2006,Don,8,3.038,0.366,3.035,0.491,
 The Black Abacus,Yoon-Ha Lee,2013,Don,7,1.829,1.044,1.907,1.076,
 Morning Glory,Charles Yu,2017,Roian,7,3.200,0.252,3.187,0.445,
 Nightgame,CJ Cherryh,1981,Roian,7,1.757,0.716,1.840,0.824,
@@ -75,9 +98,9 @@ The Road Not Taken,Harry Turtledove,1985,Ting,7,2.457,0.864,2.493,0.892,
 The Sunjammer,Arthur Clarke,1963,Ting,7,2.800,0.751,2.813,0.789,
 A Burden Shared,Jo Walton,2017,Stuart,6,2.417,0.801,2.462,0.848,
 The Worldless,Indrapramit Das,2017,Stuart,6,2.333,0.816,2.385,0.865,
-Einstein's Dreams,Alan Lightman,1992,Stuart,7,1.929,0.838,2.000,0.903,
-Flowers for Algernon,Daniel Keyes,1958,Gary,10,4.500,0.816,4.429,0.896,
-That Game We Played During the War,Carrie Vaughn,2016,Gary,8,3.438,0.821,3.412,0.849,
+Einstein's Dreams,Alan Lightman,1992,Stuart,8,1.938,0.776,2.000,0.845,
+Flowers for Algernon,Daniel Keyes,1958,Gary,11,4.455,0.789,4.391,0.864,
+That Game We Played During the War,Carrie Vaughn,2016,Gary,9,3.389,0.782,3.368,0.812,
 Specialist,Robert Sheckley,1953,Charlotte,7,3.286,0.756,3.267,0.795,
 You'll Always Have the Burden With You,Ken Liu,2013,Charlotte,7,2.786,0.994,2.800,0.992,
 Significant Figures,Rachael Acks,2013,Charlotte,7,3.714,0.567,3.667,0.670,
@@ -87,19 +110,19 @@ Welcome to the Medical Clinic at the Interplanetary Relay Station,Caroline Yoach
 The Things My Mother Left Me,PDjeli Clark,2017,Nadine,6,2.850,0.857,2.862,0.879,
 The Lights We Carried Home,Kay Chronister,2016,Nadine,6,2.333,0.408,2.385,0.580,
 Seasons of Glass and Iron,Amal El-Mohtar,2016,Adam,6,3.000,0.316,3.000,0.497,
-Our Talons Can Crush Galaxies,Brooke Bolander,2016,Adam,6,2.667,1.252,2.692,1.210,
+Our Talons Can Crush Galaxies,Brooke Bolander,2016,Adam,7,2.429,1.305,2.467,1.269,
 The City Born Great,NK Jemisin,2016,Adam,6,2.433,1.098,2.477,1.088,
 Adam and No Eve,Alfred Bester,1941,Steve,6,2.050,0.628,2.123,0.748,
 The Chapter Ends,Poul Anderson,1954,Steve,6,1.967,0.589,2.046,0.729,
 The Man Who Lost the Sea,Theodore Sturgeon,1959,Steve,6,1.717,0.449,1.815,0.676,
-Lobsters,Charles Stross,2001,Don,7,3.043,0.964,3.040,0.965,
-Maneki Neko,Bruce Sterling,1998,Don,8,3.013,0.949,3.012,0.953,
+Lobsters,Charles Stross,2001,Don,8,2.913,0.966,2.918,0.967,
+Maneki Neko,Bruce Sterling,1998,Don,9,3.011,0.888,3.011,0.899,
 How Bees Fly,Simone Heller,2017,Alex,8,2.438,0.943,2.471,0.957,
 Things with Beards,Sam Miller,2016,Alex,8,2.438,0.980,2.471,0.988,
 A Fist of Permutations in Lightning and Wildflowers,Alyssa Wong,2016,Alex,8,1.888,0.879,1.953,0.932,
 Young Goodman Brown,Nathaniel Hawthorne,1835,Cameron,6,2.417,1.281,2.462,1.242,
 Death on the Nile,Connie Willis,1994,Cameron,6,3.017,0.895,3.015,0.909,
-The Yellow Wallpaper,Charlotte Gilman,1892,Tam,7,2.900,0.686,2.907,0.736,
+The Yellow Wallpaper,Charlotte Gilman,1892,Tam,8,2.913,0.636,2.918,0.690,
 The Diamond Lens,Fitz-James O'Brien,1858,Tam,7,2.657,0.723,2.680,0.771,
 2147483647,megacosmo,2016,John,6,1.883,1.087,1.969,1.111,
 Neighbourhood Watch,Greg Egan,1986,John,6,2.833,0.816,2.846,0.846,
@@ -107,7 +130,7 @@ Creator,David Lake,1978,John,6,3.500,0.775,3.462,0.824,
 Cease and Desist,Tyler Young,2017,Stuart,6,2.333,0.983,2.385,0.998,
 A Stretch of Highway Two Lanes Wide,Sarah Pinsker,2014,Stuart,7,2.914,0.659,2.920,0.715,
 Faster Gun,Elizabeth Bear,2012,Stuart,7,2.429,1.018,2.467,1.022,
-The Fermi Paradox is Our Business Model,Charlie Jane Anderson,2010,Vijay,4,2.750,0.500,2.778,0.659,
+The Fermi Paradox is Our Business Model,Charlie Jane Anderson,2010,Vijay,5,2.800,0.447,2.818,0.598,
 Fermi and Frost,Frederik Pohl,1985,Vijay,4,2.125,1.031,2.222,1.052,
 One,George Effinger,1978,Vijay,4,2.550,1.370,2.600,1.282,
 Profession,Isaac Asimov,1956,Les,7,2.714,0.699,2.733,0.750,
@@ -126,7 +149,7 @@ Cyber Claus,William Gibson,1991,Don,8,2.263,0.650,2.306,0.723,
 Harnessing the Brane-deer,Robert Billing,2008,Don,8,3.250,0.463,3.235,0.560,
 "Winter Solstice, Camelot Station",John Ford,1986,Don,6,2.583,1.429,2.615,1.364,
 Tis the Season,China Mieville,2004,Don,7,3.571,0.607,3.533,0.691,
-The Star,Arthur Clarke,1954,Don,7,3.600,0.580,3.560,0.672,
+The Star,Arthur Clarke,1954,Don,8,3.775,0.730,3.729,0.789,
 The Invisibles,Charles de Lint,1996,Nadine,5,2.340,0.882,2.400,0.921,
 Sparking Anger,Margaret Ronald,2006,Nadine,6,2.200,0.245,2.262,0.513,
 Feeding Time,James Gunn,1955,Nadine,7,1.671,0.720,1.760,0.836,
@@ -134,17 +157,17 @@ The Anatomy Lesson,Scott Sanders,1991,Nadine,7,2.686,1.317,2.707,1.274,
 Stone Animals,Kelly Link,2004,Alex,8,2.163,0.695,2.212,0.765,6.2
 Civilization,Vylar Kaftan,2007,Cameron,6,2.617,0.531,2.646,0.639,7
 Red Card,SL Gilbow,2007,Cameron,6,2.933,0.606,2.938,0.684,7.7
-The Lottery,Shirley Jackson,1948,Cameron,8,3.388,0.656,3.365,0.712,5.2
+The Lottery,Shirley Jackson,1948,Cameron,9,3.344,0.627,3.326,0.681,5.2
 A Moment of Gravity Circumscribed,Fran Wilde,2013,John,8,2.075,0.748,2.129,0.813,5.3
 The Cold Equations,Tom Godwin,1954,John,8,2.313,0.704,2.353,0.763,10.9
 The Dog King,Holly Black,2010,Tam,8,3.063,0.729,3.059,0.766,7
 Five Stages of Grief After the Alien Invasion,Caroline Yoachim,2014,Tam,9,2.500,0.829,2.526,0.855,8
 The Right Sort of Monsters,Kelly Sandoval,2016,Tam,8,2.938,0.776,2.941,0.805,4.6
 Mimsy were the Borogoves,Lewis Padgett,1943,Mark,7,2.557,0.800,2.587,0.836,6.9
-The Ones Who Walk Away from Omelas,Ursula Le Guin,1973,Mark,8,2.900,0.657,2.906,0.707,9
+The Ones Who Walk Away from Omelas,Ursula Le Guin,1973,Mark,9,2.911,0.615,2.916,0.668,9
 That Which Stands Tends Toward Free Fall,Benjanun Sriduangkaew,2016,Les,5,1.260,0.434,1.418,0.785,9.4
 Dragon's Fin Soup,SP Somtow,2000,Les,7,3.114,0.438,3.107,0.552,9.3
-Seventy-Two Letters,Ted Chiang,2000,Stuart,7,3.671,0.860,3.627,0.894,10.2
+Seventy-Two Letters,Ted Chiang,2000,Stuart,8,3.838,0.924,3.788,0.953,10.2
 Eight Short Science-Fiction Stories,Paul Simms,2015,Vijay,7,1.857,1.069,1.933,1.095,8.4
 The Brief History of the Dead,Kevin Brockmeier,2003,Vijay,8,2.438,0.980,2.471,0.988,10.8
 Lostronaut,Jonathan Lethem,2008,Vijay,8,2.188,0.923,2.235,0.951,12.7
@@ -158,7 +181,7 @@ Luminous,Greg Egan,1995,Charlotte,9,3.956,0.951,3.905,0.979,
 Blit,David Langford,1988,Don,10,2.400,0.937,2.429,0.950,9.3
 Different Kinds of Darkness,David Langford,2000,Don,10,3.950,0.956,3.905,0.980,8.4
 Nearly Departed,Pat Cadigan,1983,Don,9,2.833,0.500,2.842,0.577,9.1
-The Paper Menagerie,Ken Liu,2012,Bill,11,2.636,1.286,2.652,1.263,6.2
+The Paper Menagerie,Ken Liu,2012,Bill,11,2.682,1.309,2.696,1.283,6.2
 Sleeper,Jo Walton,2014,Bill,9,3.444,0.682,3.421,0.730,8.3
 Each to Each,Seanan McGuire,2014,Bill,9,2.278,0.905,2.316,0.929,
 Impossible Dreams,Tim Pratt,2007,Alex,10,3.150,0.580,3.143,0.634,9.1
@@ -229,8 +252,8 @@ First Principle,Nancy Kress,2013,Don,6,2.700,0.632,2.723,0.708,6.9
 The Lady Astronaut of Mars,Mary Kowal,2012,Don,6,3.000,0.894,3.000,0.908,7.1
 Today I am Paul,Martin Shoemaker,2015,Bill,9,3.111,1.054,3.105,1.046,7.6
 The Well of Baln,Ursula Le Guin,1981,John,7,2.214,0.699,2.267,0.773,5.5
-I don't know Timmy being God is a big responsibility,Sam Hughes,2008,John,5,3.020,1.001,3.018,0.993,8
-Non-zero Probabilities,NK Jemisin,2009,John,5,2.900,0.548,2.909,0.659,7
+I don't know Timmy being God is a big responsibility,Sam Hughes,2008,John,6,2.850,0.987,2.862,0.985,8
+Non-zero Probabilities,NK Jemisin,2009,John,6,2.917,0.492,2.923,0.604,7
 Life Line,Robert Heinlein,1939,John,5,2.500,0.707,2.545,0.783,7
 Jack-In-the-Box,Ray Bradbury,1947,Tam,7,2.714,0.488,2.733,0.591,5.6
 Who Will Greet You at Home,Lesley Arimah,2015,Tam,7,3.043,0.964,3.040,0.965,8
@@ -277,14 +300,14 @@ A Most Ambitious Experiment,Mike Krath,,Vijay,5,2.200,0.837,2.273,0.898,5.6
 The Clock That Went Backward,Edward Mitchell,1881,Vijay,6,2.333,0.516,2.385,0.647,9.2
 The Water that Falls on You from Nowhere,John Chu,2013,Gary,6,2.083,0.801,2.154,0.870,6.8
 The Girl who was Plugged In,Alice Sheldon,1973,Gary,4,3.000,0.816,3.000,0.856,6.3
-Harrison Bergeron,Kurt Vonnegut,1961,Gary,5,4.500,0.500,4.364,0.772,8
+Harrison Bergeron,Kurt Vonnegut,1961,Gary,5,4.600,0.548,4.455,0.814,8
 S is for Solipsism,Tim Pratt,2011,Stuart,4,1.950,0.737,2.067,0.873,8.9
 Closer,Greg Egan,1992,Stuart,4,3.700,0.872,3.622,0.925,10.6
 They,Robert Heinlein,1941,Stuart,4,2.000,0.816,2.111,0.918,
 From Gustible's Planet,Cordwainer Smith,1962,Charlotte,4,3.325,1.044,3.289,1.027,10.2
 Exhalation,Ted Chiang,2008,Charlotte,6,4.250,1.173,4.154,1.190,14.4
 The Iceman,Haruki Murakami,1991,Charlotte,5,2.600,0.894,2.636,0.917,6.5
-Immersion,Aliette de Bodard,2012,Bill,4,3.750,0.500,3.667,0.699,9.5
+Immersion,Aliette de Bodard,2012,Bill,5,3.800,0.447,3.727,0.642,9.5
 If You were a Dinosaur My Love,Rachel Swirsky,2013,Bill,5,1.700,0.837,1.818,0.949,10
 Jackalope Wives,Ursula Vernon,2014,Bill,6,3.833,1.169,3.769,1.159,6.9
 Instability,Paul Di Filippo,1988,Don,4,2.750,0.500,2.778,0.659,10.6
