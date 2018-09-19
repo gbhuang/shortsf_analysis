@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as pe
+import matplotlib.colors
+import matplotlib.mlab
 import scipy.stats
 import seaborn as sns
 import textwrap
@@ -85,7 +87,7 @@ for aa, mm in sorted(authors.items(),
         all_scores[1] += mm
         all_scores.append(mm)
         labels.append('%s (%d)' % (aa, len(mm)))
-plt.figure(figsize=(15,10))
+plt.figure(figsize=(14,14))
 plt.boxplot(all_scores,vert=False,labels=labels)
 plt.xlabel('story mean')
 plt.gca().xaxis.grid(True)
@@ -131,7 +133,7 @@ for ii in sorted(sb_info):
     labels.append(
         '%s%s, choose' % (ii[1][2], ii[1][3]))
 
-plt.figure(figsize=(15,6))
+plt.figure(figsize=(14,5))
 plt.boxplot(dev_dist,vert=False,labels=labels)
 plt.xlabel('deviation from story mean')
 plt.gca().xaxis.grid(True)
@@ -154,7 +156,7 @@ std_l = []
 for ll in std_dist:
     std_d.append(ll[0])
     std_l.append(ll[1])
-plt.figure(figsize=(15,6))
+plt.figure(figsize=(14,5))
 plt.boxplot(std_d,vert=False,labels=std_l)
 plt.xlabel('story std')
 plt.gca().xaxis.grid(True)
@@ -164,7 +166,7 @@ plt.close()
 
 # stories_plot.png
 #   bubble plot of means,stds
-plt.figure(figsize=(20,12))
+plt.figure(figsize=(20,14))
 n_stories = np.size(attr,0)
 r_mn  = attr.b_mean + np.random.rand(n_stories)/1000;
 r_std = attr.b_std  + np.random.rand(n_stories)/1000;
@@ -181,6 +183,8 @@ for ii in range(0,n_stories):
     c_idx = np.flatnonzero(choosers==
                            attr.chooser[ii]);
     s_cl.append(c_idx[0])
+    if c_idx[0]==0: # novel
+        s_sz[-1] *= 1.4
 
     plotly_hover.append(
         '%s<br />author: %s<br />"%s"<br /><br />chooser: %s<br />mean: %g<br />std: %g' % (
@@ -214,6 +218,11 @@ while(True):
     if n_shift==0 or n_iter>200:
         break
 
+cc = sns.color_palette('Set1',np.max(s_cl))
+cc.insert(0, (0, 0, 0))
+#cc = sns.husl_palette(np.max(s_cl)+1, l=.5, s=.9)
+cm = matplotlib.colors.ListedColormap(cc)
+
 s_mn  = xx[0,:]
 s_std = xx[1,:]
 for ii in range(0,n_stories):
@@ -223,7 +232,7 @@ for ii in range(0,n_stories):
              path_effects=[pe.withStroke(linewidth=2,
                                          foreground='w')])
 sct = plt.scatter(s_mn, s_std, c=s_cl, s=s_sz,
-                  cmap=plt.get_cmap('Paired'),
+                  cmap=cm,  # plt.get_cmap('Paired'),
                   linewidths=2, edgecolor='w')
 sct.set_alpha(0.8)
 plt.xlim([0,1])
@@ -235,8 +244,6 @@ plt.savefig('images/stories_plot.png')
 plt.close()
 
 
-cc = sns.color_palette('Set1',np.max(s_cl)+1)
-#cc = sns.husl_palette(np.max(s_cl)+1, l=.5, s=.9)
 cc_list = []
 for ii in s_cl:
     cc_int = np.floor(np.asarray(cc[ii])*255).astype(int)
@@ -260,8 +267,59 @@ plotly.offline.plot( {'data': [
                    color=cc_list,
                    size=np.asarray(s_sz),
                    sizemode='area',
-                   sizeref=2.*max(s_sz)/(40.**2),
+                   sizeref=2.*max(s_sz)/(50.**2),
                    sizemin=4
                ))],
                       'layout': layout},
                      filename='images/stories_plot.html')
+
+
+# histograms classics versus contemporary
+if False:
+    plt.figure(figsize=(6,6))
+    plt.hist([attr.b_mean[attr.year<2010], attr.b_mean[attr.year>=2010]],
+             np.linspace(0.75,4.75,9), alpha=0.5,
+             weights=[np.ones(np.sum(attr.year<2010))/np.sum(attr.year<2010),
+                      np.ones(np.sum(attr.year>=2010))/np.sum(attr.year>=2010)],
+             label=['before 2010', '2010 and after'])
+    plt.tight_layout()
+
+    ratings_sub = ratings.iloc[:,[0,1,3,5,7]]
+    full_idx = (np.sum(np.isnan(ratings.iloc[:,[0,1,3,5,7]]),axis=1)==0).nonzero()[0]
+    ratings_full = ratings_sub.iloc[full_idx,:]
+    rf_mn0 = np.mean(ratings_full,axis=0).values.reshape(1,5)
+    rf_std = np.std(ratings_full,axis=0).values.reshape(1,5)
+    rf_norm0 = (ratings_full.values - rf_mn0)/rf_std
+    rf_mn1 = np.mean(rf_norm0, axis=1).reshape(-1,1)
+    rf_norm1 = rf_norm0 - rf_mn1
+
+    results = mamtplotlib.mlab.PCA(rf_norm1, standardize=False)
+
+    cc = sns.color_palette("RdBu_r", 100)
+
+    rf_mn1_sc = (99*(rf_mn1 - np.min(rf_mn1)) /
+                 (np.max(rf_mn1)-np.min(rf_mn1))).astype('int')
+    cc_list = []
+    for ii in rf_mn1_sc:
+        cc_int = np.floor(np.asarray(cc[ii[0]])*255).astype(int)
+        cc_list.append( 'rgb(%d,%d,%d)' %
+                        (cc_int[0],cc_int[1],cc_int[2]) )
+
+    layout = go.Layout(
+        hovermode = 'closest',
+        xaxis=dict(title='PC1'),
+        yaxis=dict(title='PC2'))
+    plotly.offline.plot( {'data': [
+        go.Scatter(x=results.Y[:,0], y=results.Y[:,1],
+                   mode='markers',
+                   text=[plotly_hover[ii] for ii in full_idx],
+                   hoverinfo='text',
+                   textfont=dict(
+                       size=6,
+                       color='#cccccc'
+                       ),
+                   marker=dict(
+                       color=cc_list
+                   ))],
+                          'layout': layout},
+                         filename='images/tmp_pca_plot.html')
